@@ -1802,15 +1802,17 @@
 				bottom: 0;
 				width: 50%;
 				height: 100%;
-				background: #152E33;
+				background: #161616;
 				overflow: hidden;
 			}
 
 				.box.style1 .image img {
-					position: relative;
+					position: absolute;
 					top: 0;
-					height: auto;
-					width: 100%;
+					bottom: 0;
+					height: 100%;
+					width: auto;
+					margin: auto;
 				}
 
 			.box.style1 .inner > :last-child {
@@ -1819,10 +1821,12 @@
 
 			.box.style1.right .image {
 				left: 0;
+				bottom: 0;
 			}
 
 				.box.style1.right .image img {
 					right: 0;
+					/* margin: auto; */
 				}
 
 			.box.style1.right .inner {
